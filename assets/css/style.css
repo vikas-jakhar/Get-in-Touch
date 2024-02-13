@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.h-1 {
+    color: var(--Colors-Heading, #1E0E62);
+    font-family: "DM Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+.p-1 {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 355px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-4 {
+    background-color: #EBEAED;
+    width: 368px;
+    height: 2px;
+    top: 406.5px;
+    left: 216.5px;
+    border: 2px;
+
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.msg-box {
+    background-color: #F9F9FA;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.p-5 {
+    font-family: "DM Sans";
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1E0E62;
+}
+
+.input-1 {
+    width: 370px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.input-1::placeholder {
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.btn {
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    border-radius: 100px;
+    background: #25DAC5;
+    border: 2px solid #25DAC5;
+    color: #FFFFFF;
+}
+
+.wv-270 {
+    width: 270px;
+}
+
+.map {
+    width: 370px;
+    height: 230px;
+    top: 558px;
+    left: 215px;
+}
+
+.area {
+    width: 370px;
+    height: 170px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #EBEAED;
+    outline: none;
+    padding: 10px;
+    resize: none;
+}
+
+.area::placeholder {
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    top: 13px;
+    left: 19px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+@media (min-width:320px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
